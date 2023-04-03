@@ -89,12 +89,12 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
     .banner,.chatMessage,#input {
         width: 700px;
     }
 }
-@media (min-width: 380px) {
+@media screen and (max-width: 380px) {
     .banner,.chatMessage,#input {
         width: 349px;
     }
