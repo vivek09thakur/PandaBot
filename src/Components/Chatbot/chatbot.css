@@ -94,3 +94,8 @@ body {
         width: 700px;
     }
 }
+@media (min-width: 380px) {
+    .banner,.chatMessage,#input {
+        width: 349px;
+    }
+}
