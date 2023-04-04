@@ -63,7 +63,7 @@ body {
 
 input {
     width: 400px;
-    height: 31px;
+    height: 34px;
     border: 0;
     border-radius: .5em;
     background: #40414fff;
@@ -73,7 +73,7 @@ input {
 
 button {
     width: 70px;
-    height: 31px;
+    height: 34px;
     border: 0;
     background: #40414fff;
     border-radius: .5em;
