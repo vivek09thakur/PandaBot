@@ -40,12 +40,13 @@ function Chatbot() {
     event.target.elements.input.value = '';
     const botResponse = generateResponse(userInput);
     setMessages([...messages, { text: userInput, user: true }, { text: botResponse, user: false }]);
+
   }
 
   return (
     <div className="chatbot-container">
       <div className="chatbot-header">
-        <h1 className="chatbot-title">PandaBot</h1>
+      <h1 className="chatbot-title">PandaBot<img src='panda.svg'/></h1>
       </div>
       <div className="chatbot-messages">
         {messages.map((message, index) => (
