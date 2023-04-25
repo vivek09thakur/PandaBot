@@ -46,12 +46,12 @@ function Chatbot() {
   return (
     <div className="chatbot-container">
       <div className="chatbot-header">
-      <h1 className="chatbot-title">PandaBot<img src='panda.svg'/></h1>
+      <h1 className="chatbot-title">  PANDABOT    <img src='panda.svg' alt='icon'/></h1>
       </div>
       <div className="chatbot-messages">
         {messages.map((message, index) => (
           <div key={index} className={`chatbot-message ${message.user ? 'user-message' : 'bot-message'}`}>
-            <span>{message.user ? 'You : ' : 'PandaBot : '}{message.text}</span>
+            <span>{message.user ? 'User Said : ' : 'PandaBot : '}{message.text}</span>
           </div>
         ))}
       </div>
