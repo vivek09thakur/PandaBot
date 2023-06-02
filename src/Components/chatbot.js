@@ -15,6 +15,20 @@ const regexes = [
     response: "I'm doing well, thank you for asking. How about you?",
   },
   {
+    pattern: /What is my attendance of this month? /my attendance, 
+    response: "Your attendance for this month is 76% . Congrats! You're eligible for attending CT as well.", 
+  },
+  {
+    pattern: How to get admission in Rungta ?, 
+    response: "Contact for Admissions :
+Bhilai - 9016-112222
+Raipur - 9016-113333", 
+  }, 
+  {
+    pattern: /highest placement in Rungta/placement, 
+    response: " The highest placement in Rungta till now is ₹48L per annum in Dbs bank and ₹38L in Amazon.", 
+  },
+  {
     pattern: /i am fine|yeah...fine|i am good|i'm good/i,
     response: "I'm glad to hear that!",
   }
