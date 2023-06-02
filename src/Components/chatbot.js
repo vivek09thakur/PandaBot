@@ -8,14 +8,14 @@ const regexes = [
   },
   {
     pattern: /whats up|what are you doing|whats going on/i,
-    response: "Nothing much, just trying to respond to your messages.",
+    response: "Nothing much,just trying to respond to your messages.",
   },
   {
-    pattern: /how are you|how's it going/i,
+    pattern: /how are you|how's it going,
     response: "I'm doing well, thank you for asking. How about you?",
   },
   {
-    pattern: /What is my attendance of this month? /my attendance, 
+    pattern: /What is my attendance of this month।my attendance, 
     response: "Your attendance for this month is 76% . Congrats! You're eligible for attending CT as well.", 
   },
   {
@@ -25,7 +25,7 @@ Bhilai - 9016-112222
 Raipur - 9016-113333", 
   }, 
   {
-    pattern: /highest placement in Rungta/placement, 
+    pattern: /highest placement in Rungta।placement, 
     response: " The highest placement in Rungta till now is ₹48L per annum in Dbs bank and ₹38L in Amazon.", 
   },
   {
