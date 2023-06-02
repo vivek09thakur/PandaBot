@@ -16,12 +16,12 @@ const regexes = [
 
   },
   {
-    pattern: /What is my attendance of this month।my attendance, 
+    pattern: /What is my attendance of this month।my attendance/Myy attendance, 
     response: "Your attendance for this month is 76% . Congrats! You're eligible for attending CT as well.", 
 
   },
   {
-    pattern: How to get admission in Rungta ?, 
+    pattern: /How to get admission in Rungta?।admission process / admission process in R1, 
     response: "Contact for Admissions :
 Bhilai - 9016-112222
 Raipur - 9016-113333", 
