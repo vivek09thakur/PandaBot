@@ -6,7 +6,9 @@ const App = () => {
   return (
     <>
       <React.Fragment>
-        <Hero/>
+        <div id="app">
+          <Hero />
+        </div>
       </React.Fragment>
     </>
   );
